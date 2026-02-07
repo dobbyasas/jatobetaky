@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg {
+  height: 100vh;
+  width: 100vw;
+  background: url("/me.png") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-size: clamp(28px, 6vw, 80px);
+  text-align: center;
+  padding: 20px;
+
+  /* readability over image */
+}
